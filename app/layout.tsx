@@ -23,9 +23,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.variable}>
-        <Theme appearance="light" accentColor="violet">
+        <Theme accentColor="violet">
           <NavBar />
           <main className="p-5">{children}</main>
         </Theme>
