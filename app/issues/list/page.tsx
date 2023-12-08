@@ -1,5 +1,5 @@
 import { IssueStatusBadge, Link } from "@/app/components"
-import IssueActions from "@/app/issues/IssueActions"
+import IssueActions from "@/app/issues/list/IssueActions"
 import prisma from "@/prisma/client"
 import { Table } from "@radix-ui/themes"
 
