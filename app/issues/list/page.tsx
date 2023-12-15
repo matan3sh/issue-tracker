@@ -55,6 +55,7 @@ const IssuesPage = async ({ searchParams }: Props) => {
             ))}
           </Table.Row>
         </Table.Header>
+
         <Table.Body>
           {issues.map((issue) => (
             <Table.Row key={issue.id}>
